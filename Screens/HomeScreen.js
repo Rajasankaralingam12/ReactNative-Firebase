@@ -12,29 +12,7 @@ import MenuCard from "../Components/MenuCard";
 import MovieCard from "../Components/MovieCard";
 import {db} from "../Config"
 
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-// const firebaseConfig = {
-//   apiKey: "AIzaSyCTh61evfQw2_UkQVJGSIvF4yFch59iE6A",
-//   authDomain: "react-native-91a7a.firebaseapp.com",
-//   projectId: "react-native-91a7a",
-//   storageBucket: "react-native-91a7a.appspot.com",
-//   messagingSenderId: "1030869245840",
-//   appId: "1:1030869245840:web:66600fbb11bfeb574c5d15",
-//   measurementId: "G-EV3V9N50KF"
-// };
 
-//  const firebaseApp = "";
-
-// if (!firebase.apps.length) {
-//   try {
-//      firebaseApp =   firebase.initializeApp(firebaseConfig)
-//   } catch (err) {
-//     firebaseApp = firebase.app();
-//       console.error("Firebase initialization error raised", err.stack)
-//   }
-// }else{
-//   firebaseApp = firebase.app();
-//}
 const screenHeight = Dimensions.get("window").height;
 
 function mapStateToProps(state){
